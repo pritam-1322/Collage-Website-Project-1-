@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+  </head>
+<body>
+
+<!-- 
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ -->
+
+
+    <!-- header bar section start  -->
+
+    <header class="wow fadeInLeft main-header">
+
+
+
+      <nav class="navbar navbar-expand-lg pt-0">
+          <div class="container-fluid">
+      
+      
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png"><span> COURSE</span></a>
+      
+            <a class="mobile-icon" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#searchModal"><img src="assets/images/footer-images/search.png" class="search-image-2"></a>
+      
+      
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-1" aria-controls="offcanvas-1">
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon"></span>
+              
+            </button>
+      
+            <div class="offcanvas offcanvas-start slidenavbar" tabindex="-1" id="offcanvas-1" aria-labelledby="offcanvas-1Label">
+      
+      
+      
+              <ul class="navbar-nav mr-auto slidenavbar-inner">
+                     
+                <li class="nav-item active">
+                    <a class="nav-link" 
+                       href="./index.html">
+                     <p> Home</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="./admission-enquiry.html" target="_blank">
+                      <p>Admission</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="./about-us.html" target="_blank">
+                      <p>About</p>
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="./gallary.html" target="_blank">
+                      <p>Gallary</p>
+                    </a>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link"
+                     href="./news-section.html" target="_blank">
+                   <p>News</p>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link"
+                     href="./placements.html" target="_blank">
+                   <p>Placement</p>
+                  </a>
+              </li>
+               
+        </ul>
+      
+        </div>
+      
+            <div class="d-flex">
+              <a href="javascript:void(0)"  data-bs-toggle="modal" data-bs-target="#searchModal"><img src="assets/images/footer-images/search.png" class="search-image-1"></a></li>
+            </div>
+            <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl ">
+                <div class="modal-content">
+                  <div class="header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel">Search For Our New Courses</h5>
+                    <!-- <button type="button" data-bs-dismiss="modal" aria-label="Close"><img class="img-fluid" src="assets/images/footer-images/crossicon.png"></button> -->
+                  </div>
+                  <div class="modal-body">
+                    <div class="row align-items-center">
+                      <div class="col-6 text-center">
+                        <div class="form-group">
+                          <label for="Courses" class="form-label">Choose Your Course</label>
+                          <select id="inputstream" class="form-select">
+                            <option selected>Select the Course</option>
+                            <option>Diploma Courses</option>
+                            <option>Undergraduation Courses</option>
+                            <option>Post Graduation Courses</option>
+                          </select>
+                        </div>
+                         </div>
+      
+                      <div class="col-6 text-center">
+                       
+                          <label for="modeOfStudy" class="form-label">Mode Of Study</label>
+                          <div class="form-group">
+                              <input class="form-check-input" type="radio" name="RadioOptions1" id="Radio6" value="option6">
+                              <label class="form-check-label" for="Radio6">Online Mode</label>
+
+                            </div>
+                            <div class="form-group">
+                              <input class="form-check-input" type="radio" name="RadioOptions1" id="Radio7" value="option7">
+                              <label class="form-check-label" for="Radio7">Offline Mode</label>
+                              </div>
+                            
+                      </div>
+                      
+                      </div>
+                        <button type="submit" class="btn btn-1 btn-warning mt-4">Search</button>
+      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+        </nav>
+      </header>
+
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Action
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+
+
+
+
+
+
+ 
+
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/index.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+       </script>
+</body>
+</html>

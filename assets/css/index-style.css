@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: College-template;
+    src: url(../fonts/JosefinSansRegular-x3LYV.ttf);
+}
+body{
+    font-family: College-template;
+    letter-spacing: 1.1px;
+}
+.container-xxl{
+    max-width: 96%;
+}
+
+.footer-section{
+    background-color: rgb(78, 76, 76);
+}
+.footer-section h5{
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+}
+.footer-section .bottom-logo span{
+    font-size: 35px;
+    font-weight: 900;
+    vertical-align: top;
+    color: white;
+}
+.footer-section .bottom-logo p{
+    margin-top: 12px;
+    color: white;
+}
+.footer-section ul li img{
+    height: 30px;
+    margin: 5px;
+}
+.footer-section ul li{
+    text-decoration: none;
+    display: inline;
+}
+.footer-section ul{
+    padding-left: 0%;
+    margin-top: 12px;
+
+}
+.footer-section .list-1{
+    text-decoration: none;
+    display: block;
+    padding-left: 0%;
+}
+.footer-section .list-1 li{
+    font-size: 13px;
+    display: block;
+    font-weight: bolder;
+    color: white;
+}
+.footer-section .list-1 li img{
+    height: 19px;
+}
+.footer-section form .btn{
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#Email{
+    border-radius: 20px;
+}
+.border-bottom{
+    border-top: 2px solid #ffc107;
+}
+.bottom-footer-section ul{
+    text-decoration: none;
+    text-align: center;
+}
+.bottom-footer-section ul li{
+    margin: 14px;
+}
+.bottom-footer-section ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bottom-footer-section ul li a:hover{
+    color: #ffc107;
+    text-decoration: underline;
+}

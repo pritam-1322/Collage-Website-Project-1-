@@ -1,0 +1,1127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: College-template;
+    src: url(../fonts/collage-template-font.ttf);
+}
+body{
+    font-family: College-template;
+    letter-spacing: 1.1px;
+    overflow-x: hidden;
+}
+#Email{
+    border-radius: 20px;
+}
+.container-xxl{
+    max-width: 96%;
+}
+h2{
+    font-weight: bold;
+}
+
+/* h2 span{
+    color: white;
+} */
+.btn{
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 33px;
+}
+/* footer section  */
+
+.footer-section{
+    background-color: rgb(78, 76, 76);
+}
+.footer-section h5{
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+}
+.footer-section .bottom-logo span{
+    font-size: 35px;
+    font-weight: 900;
+    vertical-align: top;
+    color: white;
+}
+.footer-section .bottom-logo p{
+    margin-top: 12px;
+    color: white;
+    font-size: 15px;
+}
+.footer-section ul li img{
+    height: 30px;
+    margin: 5px;
+}
+.footer-section ul li{
+    text-decoration: none;
+    display: inline;
+}
+.footer-section ul{
+    padding-left: 0%;
+    margin-top: 12px;
+
+}
+.footer-section .list-1{
+    text-decoration: none;
+    display: block;
+    padding-left: 0%;
+}
+.footer-section .list-1 li{
+    font-size: 13px;
+    display: block;
+    font-weight: 500;
+    color: white;
+}
+.footer-section .list-1 li img{
+    height: 19px;
+}
+.footer-section form .btn{
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+
+}
+
+/* footer section end  */
+
+
+/* border bottom section start  */
+
+.border-bottom{
+    border-top: 2px solid #ffc107;
+}
+.border-bottom ul{
+    text-decoration: none;
+    text-align: center;
+}
+.border-bottom ul li{
+    margin: 14px;
+}
+.border-bottom ul li a{
+    text-decoration: none;
+    color: white;
+}
+.border-bottom ul li a:hover{
+    color: #ffc107;
+    text-decoration: underline;
+}
+
+/* border bottom section end  */
+
+
+
+/* testimonial section start  */
+
+
+
+
+
+
+.testimonials{
+    background-color: #ffc0035e;
+}
+.testimonial-section{
+    background-color:#f0e7e7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+}
+
+.testimonial-section:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease;
+    background-color: white;
+    
+}
+
+.testimonial-section .testimonial-heading{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 3px;
+    padding-top: 8px;
+    padding-left: 12px;
+}
+.testimonial-section .testimonial-description{
+    font-size: 14px;
+    padding: 2px 15px;
+    margin-bottom: 0px;
+}
+.testimonials .testimonial-section .testimonial-content{
+    padding-bottom: 20px;
+}
+.testimonials .testimonial-section .testimonial-content .muted-text{
+    margin-bottom: 10px;
+}
+.testimonials .testimonial-section .testimonial-picture{
+    padding-top: 17px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+/* testimonial section end  */
+
+
+/* nav tab section start  */
+.nav-tabs{
+    border: none;
+}
+.nav-tabs .nav-link.active{
+    color: #ffc107;
+    border-bottom: 3px solid #ffc107;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 7px 20px;
+    font-size: 17px;
+}
+    
+ .nav-tabs .nav-link{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 7px 20px;
+    font-size: 17px;
+    color: black;
+}
+
+/* nav tab section end  */
+
+
+
+/* course section start  */
+
+.course-section{
+    background-color: #c9c9c933;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+}
+.course-section .course-picture img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+} 
+.course-section .course-heading p{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    margin-bottom: 12px;
+}
+.course-section .course-description{
+    padding: 2px 20px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.course-section .course-heading p:hover{
+    color: #ffc107;
+    transition: 0.3s ease-in-out;
+    cursor:pointer;
+}
+/* course section end  */
+
+
+
+/* carousel section start  */
+
+.top-sliders .carousel-caption{
+    position: absolute;
+    top: 33%;
+    right: 6%;
+    left: 41%;
+    color: black;
+}
+
+.carousel-control-next-icon{
+    background-image: url(../images/Carousel/right.png);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../images/Carousel/left.png);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+
+.top-sliders .carousel-caption h3{
+    font-weight: bold;
+    font-size: 45px;
+}
+.top-sliders .carousel-caption p{
+    right: 10%;
+}
+.top-sliders .caption-2{
+    color: white;
+}
+.carousel-control-prev{
+    left: -60px;
+}
+.carousel-control-next{
+    right: -60px;
+}
+@media (min-width:275px) and (max-width:360px){
+
+    .top-sliders .carousel-caption h3{
+        font-weight: bold;
+        font-size: 14px;
+        top: -52%;
+        position:absolute;
+
+    }
+    .top-sliders .carousel-caption p{
+        font-size: 7px;
+        position: absolute;
+        top: 20%;
+        right: -2%;
+        
+    }
+}
+
+
+@media (min-width:360px) and (max-width:500px){
+    
+    .top-sliders .carousel-caption h3{
+        font-weight: bold;
+        font-size: 19px;
+        top: -58%;
+        position:absolute;
+
+    }
+    .top-sliders .carousel-caption p{
+        font-size: 10px;
+        position: absolute;
+        top: 15%;
+        right: -2%;
+        
+    }
+    
+    
+}
+
+@media (min-width:500px) and (max-width:900px){
+    .top-sliders .carousel-caption h3{
+        font-weight: bold;
+        font-size: 30px;
+        top: -40%;
+        position:absolute;
+
+    }
+    .top-sliders .carousel-caption p{
+        position: absolute;
+        top: 44%;
+        right: -2%;
+        font-size: 14px;
+    }
+
+   
+
+}
+
+/* carousel section finish  */
+
+
+/* header section start  */
+
+.main-header a span{
+    font-size: 20px;
+    font-weight: 900;
+    vertical-align: middle;
+    color: black;
+}
+.navbar-toggler-icon{
+    width: 15px;
+    height: 3px;
+    background-color:rgb(250, 0, 0);
+    display: block;
+    margin: 4px 0;
+   
+}
+.navbar-toggler{
+    border: 1px solid red;
+
+}
+.navbar-brand{
+    margin-right: 0;
+   
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+.search-image-1,.search-image-2{
+    height: 35px;
+    border: 1px;
+    background-color:#007bff;
+    filter: invert(100%);
+    padding: 10px;
+   
+}
+.search-image-2{
+    margin-right: 5px;
+}
+.slidenavbar ul li p{
+    color: #ffc107;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+@media (min-width:991px) and (max-width:1900px){
+    .mobile-icon{
+
+        display: none;
+    }
+   
+
+    .slidenavbar-inner{
+        margin: auto;
+    }
+
+    .slidenavbar-inner li{
+        margin-right: 10px;
+    }
+
+}
+
+@media (min-width:360px) and (max-width:990px){
+    .mobile-icon{
+        margin-left: auto;
+        
+    }
+    .search-image-1{
+        display: none;
+    }
+
+    .slidenavbar{
+        width: 300px;
+        height: 100%; 
+        position: fixed; 
+        background-color:white;
+        top: 0;
+        left: 0;
+        padding-top: 36px;
+        transition: transform 0.35s;
+    }
+    .slidenavbar ul li a p{
+        padding-left: 33px;
+        border-bottom: 1px solid red;
+    }
+
+    .slidenavbar ul li a p:hover{
+        color: black;
+    }
+   
+    
+
+}
+
+.main-header ul li a{
+    color: #ffc107;
+    font-weight: bold;
+}
+.main-header ul li a:hover{
+    color: #ffc107;
+}
+
+
+.modal-dialog{
+    margin: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+}
+.modal-content{
+    border: 0;
+}
+.modal-header  button{
+    border: none;
+}
+.modal-header{
+    background-color: #c9c9c933;
+}
+.modal-header  button img{
+    height: 25px;
+}
+.modal-body .form-label{
+    font-weight: bold;
+    font-size: 18px;
+}
+.modal-body .form-group select{
+    border: 1px solid #ffc107;
+}
+
+
+/* haeder section end  */
+
+
+/* about us section start  */
+
+
+.about-us-inner{
+    background-color: #c9c9c9;
+    padding: 33px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.about-us-inner-content{
+    padding-top: 22px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+.about-us-inner-content h3{
+    border-left: 4px solid #ffc107;
+    padding-left: 12px;
+    font-weight: 500;
+}
+.about-us-inner-content p{
+    margin-bottom: 0;
+}
+
+.letter-from-ceo-inner img{
+    float: right;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.letter-from-ceo-inner p{
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* about us section end  */
+
+/* query section start  */
+
+
+.any-query{
+    background-color: #c9c9c9;
+    position: relative;
+}
+
+.any-query::before{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-image: url(../images/any-query/signup-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.any-query-inner{
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.any-query-inner .form-group input {
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+}
+
+.any-query-inner .form-group textarea{
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+}
+.any-query-inner .form-group label{
+    font-weight: bold;
+}
+
+@media (min-width:360px) and (max-width:570px){
+    .any-query{
+      position: relative;
+    }
+    .any-query::before{
+       
+        width: 100%;
+        background-image: url(../images/any-query/signup-bg.jpg);
+    }
+    .any-query .any-query-inner{
+        color: white;
+    }
+}
+
+/* query section end  */
+
+
+/* about us on click section  */
+
+.ab-us-on-click-inner{
+    padding: 33px;
+    margin-top: 44px;
+}
+.about-us-on-click-1{
+    background-color: #ffc0035e;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.about-us-on-click-2{
+    background-color: #c9c9c933;
+}
+.about-us-on-click-3{
+    background-color: #ffc0035e;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.ab-us-on-click-inner .little-info{
+    color: gray;
+    font-weight: bold;
+}
+.about-us-top-section-inner{
+    background-color: #c9c9c933;
+    padding: 17px 22px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/* about us section end  */
+
+
+
+/* our teachers section */
+
+.our-teachers .our-teachers-inner{
+    padding-left:30px ;
+    padding-right: 30px;
+    border: 1px solid #eec;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.our-teachers-inner .our-teachers-picture img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #ffc107;
+    border-radius: 50%;
+    margin-top: 22px;
+    margin-bottom: 15px;
+}
+.our-teachers-inner .our-teacher-name{
+    font-size: 25px;
+}
+.our-teachers-inner .our-teacher-designation{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.our-teachers-social-media ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.our-teachers-social-media ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+.our-teachers-social-media ul li img{
+    height: 35px;
+    padding: 5px;
+    margin-left: 2px;
+}
+.slick-slide{
+    margin-left:  5px;
+    margin-right:  5px;
+}
+.slick-slider {
+    overflow: hidden;
+}
+
+
+
+/* our teacher section end  */
+
+
+
+
+/*admission enquiry form section start  */
+
+.admission-enquiry-form p{
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+}
+.admission-enquiry-form .form-label{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.admission-enquiry-form{
+    background: rgb(203, 206, 206);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-right: 55px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius:25px ;
+}
+.admission-enquiry-form .form-group input{
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+}
+.admission-enquiry-form .form-group select{
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+
+}
+.admission-enquiry-form .form-group textarea{
+    border: 1px solid #ffc107;
+    border-radius: 10px;
+}
+.admission-enquiry-form .form-group .form-check-label{
+    margin-right: 10px;
+}
+.required {
+    color: red;
+    font-size: 18px;
+  }
+/* admission enquiry form section end  */
+
+
+
+/* gallary section started  */
+
+.gallary-section .gallary-section-inner img{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gallary-section .gallary-section-inner img:hover{
+
+    /* backdrop-filter: blur(10px);
+    filter: blur(4px); */
+    transform: scale(0.9);
+    transition: transform .5s ease;
+    cursor: pointer;
+    /* opacity: 0.5; */
+    
+}
+.gallary-section-inner .image-text-on-hover:hover{
+    /* position: absolute;
+    top: 33%; */
+    color: white;
+}
+
+
+/* gallary section end  */
+
+
+/* mews section start  */
+
+
+.news-section-sideby{
+    background-color:white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.news-section-sideby .news-section-picture img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 160px;
+    width: 430px;
+}
+.news-section-sideby .news-section-heading p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.news-section-sideby .news-section-heading a{
+    text-decoration: none;
+    color: red;
+    
+}
+.news-section-sideby .news-section-heading a:hover{
+    text-decoration: none;
+    color: #ffc107;
+    text-decoration: underline;
+}
+.news-section-sideby .news-section-content{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.news-section-sideby .border-line{
+    border-top: 1px solid green;
+}
+.pagination-section ul li a{
+    color: black;
+    border: none;
+}
+
+.pagination-section ul li a:hover{
+    background-color: #ffc107;
+    color: black;
+}
+/* news section end  */
+
+
+
+/* result news section start  */
+
+.result-news-section h2{
+    font-size: 25px;
+
+}
+
+.how-to-check-result-procedure ul li{
+    padding: 5px;
+}
+
+.how-to-check-result-procedure ul{
+    padding-left: 12px;
+    list-style-type: square;
+}
+.how-to-check-result-procedure li::marker{
+    font-size: 18px;
+
+}
+
+.result-news-section .border-line{
+    border-top: 1px solid red;
+}
+.result-news-section .result-news-content{
+    margin-bottom: 0;
+    padding-top: 12px;
+    line-height: 1.9;
+}
+
+.sharing-button ul li img{
+    height: 20px;
+     margin: 5px;
+}
+.sharing-button ul li{
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+}
+.sharing-button ul{
+    padding-left: 0%;
+}
+
+
+
+
+/* result news section end  */
+
+
+
+
+
+
+/* our-college-news-section start  */
+.news-section-inner-main{
+    background-color:white ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.news-section-inner-main .news-section-picture img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.news-section-inner-main .news-section-content {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.news-section-inner-main .news-section-heading a{
+    text-decoration: none;
+    color: red;
+}
+.news-section-inner-main .news-section-heading a:hover{
+    text-decoration: none;
+    color: #ffc107;
+    text-decoration: underline;
+}
+.news-section-inner-main .news-section-heading p{
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+.news-section-inner-main .border-line{
+    border-top: 1px solid #eec;
+}
+.news-section-popular-post .sideby-heading{
+    border-left: 3px solid #ffc107;
+    border-right: 3px solid #ffc107;
+}
+.news-section-popular-post{
+    background-color: #c9c9c933;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius:12px;
+    border-bottom-left-radius: 12px;
+
+}
+.news-section-popular-post span{
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+.news-section-popular-post img{
+    cursor: pointer;
+}
+.news-section-popular-post span:hover{
+    color: #ffc107;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.news-section-post-categories{
+    padding-left: 22px;
+    padding-right: 22px;
+
+}
+.news-section-post-categories .sideby-heading{
+    border-left: 3px solid #ffc107;
+    border-right: 3px solid #ffc107;
+}
+.news-section-post-categories .category-list{
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+
+.news-section-post-categories .category-list li{
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    border-bottom: 2px solid #eec;
+    color: red;
+}
+.news-section-post-categories .category-list li:hover{
+    border-bottom: 2px solid rgb(240, 138, 138);
+    cursor: pointer;
+    color: #ffc107;
+}
+
+.news-section-tags{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius:12px;
+    border-bottom-left-radius: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+.news-section-tags .sideby-heading{
+    border-left: 3px solid #ffc107;
+    border-right: 3px solid #ffc107;
+}
+.news-section-tags .tag-list li{
+    text-decoration: none;
+    display: inline-block;
+    background-color:white;
+    padding: 2px 10px;
+    border: 1px solid #eec;
+    margin: 2px 2px;
+
+}
+.news-section-tags .tag-list li:hover{
+    border: 1px solid solid #eec;
+    transition: 0.3s ease-in-out;
+    background-color: #ffc107;
+    cursor: pointer;
+}
+.news-section-tags .tag-list{
+   padding-left: 0;
+   margin-bottom: 0;
+}
+/* our college-news section end */
+
+
+
+
+
+/* breadcrumps section start  */
+
+ul.breadcrumb {
+    padding: 10px 10px;
+    list-style: none;
+    background-color:white;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+/* breadcrumps section end  */
+
+
+
+
+  /* placement section start  */
+  .upcoming-placement-inner ul li{
+      text-decoration: none;
+      display: block;
+  }
+
+
+  .upcoming-placement-inner .btn{
+      padding: 7px 13px;
+  }
+
+  
+  .job-categories-inner{
+      background-color: #ffff;
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+
+  }
+
+  .job-categories-inner .job-category-image img{
+      height: 79px;
+      padding-top: 22px;
+      
+  }
+  .job-categories-inner .job-category-name p{
+      margin-bottom: 0;
+      margin-top: 22px;
+      font-size: 18px;
+      font-weight: bolder;
+  }
+  .job-categories-inner .job-category-name p:hover{
+      color: red;
+      text-decoration: underline;
+  }
+
+  .job-categories-inner .job-category-name a{
+      text-decoration: none;
+      color: #ffc107;
+  }
+  .job-categories-inner .job-category-description p{
+      padding-bottom: 22px;
+      padding-left: 12px;
+      padding-right: 12px;
+      font-size: 14px;
+  }
+
+
+  .our-alumini-inner .our-alumini-image img{
+    height: 100px;
+    border-radius: 50%;
+  }
+  .our-alumini-inner .our-alumni-name h5{
+      font-weight: bold;
+      margin-top: 11px;
+  }
+  
+  .our-alumini-inner-category{
+      padding: 12px 22px;
+      background-color: aliceblue;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+  }
+  .our-alumini-inner-category .our-alumni-quotes p{
+      margin-bottom: 0;
+  }
+  /*  placement section end  */
+
+
+
